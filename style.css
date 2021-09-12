@@ -18,14 +18,14 @@ header{
 }
 
 .addItemTEXT{
-    margin: 2rem 2rem 0rem 1.5rem;
+    margin: 2rem 2rem 0rem 5rem;
     font-size: 2.5rem;
 }
 
 #addItems{
     width: 75%;
     font-size: 1.5rem;
-    margin : 0rem 1rem 2rem 1.5rem;
+    margin : 0rem 1rem 2rem 5rem;
 }
 
 #submit{
@@ -41,4 +41,17 @@ header{
     background-color: #bbbbbb;
     color: #330000;
 }
+ul{
+    margin : 0rem 17rem 2rem 5rem;
+}
 
+li{
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    list-style-type:none;
+    background-color: #c2b0b0;
+}
+
+.li-completed{
+    background-color: #4b3f3f;
+}
