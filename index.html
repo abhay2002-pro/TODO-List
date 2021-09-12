@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>TODO List</title>
 </head>
 <body>
     <header>
-        <h1>TODO LIST</h1>
+        <h1 class="headerTEXT">TODO LIST</h1>
     </header>
-    <input type="text" id="addItems" placeholder="Things to be done.....">
+
+    <div class="addItem">
+        <h2 class="addItemTEXT">Add Items</h2>
+        <input type="text" id="addItems" placeholder="Things to be done.....">
+        <input type="submit" id = "submit" value="Add">
+    </div>
+
+    <div class="tasks">
+        <ul id = "myUL">
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
